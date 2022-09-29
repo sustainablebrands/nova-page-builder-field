@@ -45463,7 +45463,7 @@
               obj.list = [{ value: 'none' }, { value: 'left' }, { value: 'right' }];
               break;
             case 'display':
-              obj.list = [{ value: 'block' }, { value: 'inline' }, { value: 'inline-block' }, { value: 'none' }];
+              obj.list = [{ value: 'block' }, { value: 'inline' }, { value: 'inline-block' }, { value: 'flex'}, { value: 'none' }];
               break;
             case 'position':
               obj.list = [{ value: 'static' }, { value: 'relative' }, { value: 'absolute' }, { value: 'fixed' }];
