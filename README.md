@@ -13,13 +13,13 @@ composer require sustainablebrands/nova-page-builder-field
 You can publish the required assets with:
 
 ```shell
-php artisan vendor:publish --provider="DigitalCloud\PageBuilderField\FieldServiceProvider" --tag=public
+php artisan vendor:publish --provider="SustainableBrands\PageBuilderField\FieldServiceProvider" --tag=public
 ```
 
-## Usage
+## Usage (in your Nova model)
 
 ```php
-use use DigitalCloud\PageBuilderField\PageBuilderField;
+use SustainableBrands\PageBuilderField\PageBuilderField;
 // ....
 
 PageBuilderField::make('page'),

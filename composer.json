@@ -1,12 +1,13 @@
 {
-    "name": "digitalcloud/nova-page-builder-field",
-    "description": "A Laravel Nova page builder field.",
+    "name": "sustainablebrands/nova-page-builder-field",
+    "description": "A Laravel Nova page builder field using GrapesJS.",
     "keywords": [
         "laravel",
         "nova",
         "field",
         "page builder",
-        "page design"
+        "page design",
+        "grapesjs"
     ],
     "license": "MIT",
     "require": {
@@ -14,13 +15,13 @@
     },
     "autoload": {
         "psr-4": {
-            "DigitalCloud\\PageBuilderField\\": "src/"
+            "SustainableBrands\\PageBuilderField\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "DigitalCloud\\PageBuilderField\\FieldServiceProvider"
+                "SustainableBrands\\PageBuilderField\\FieldServiceProvider"
             ]
         }
     },

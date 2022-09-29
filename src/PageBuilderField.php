@@ -1,6 +1,6 @@
 <?php
 
-namespace DigitalCloud\PageBuilderField;
+namespace SustainableBrands\PageBuilderField;
 
 use Laravel\Nova\Fields\Field;
 
