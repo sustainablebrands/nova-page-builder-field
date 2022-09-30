@@ -5,6 +5,7 @@
 <script>
 
 import grapesjs from 'grapesjs';
+import 'grapesjs/dist/css/grapes.min.css';
 import basicBlocks from 'grapesjs-blocks-basic';
 import pluginNavbar from 'grapesjs-navbar';
 import pluginCountdown from 'grapesjs-component-countdown';
@@ -72,6 +73,18 @@ export default {
                         name: 'General',
                         open: false,
                         buildProps: ['float', 'display', 'position', 'top', 'right', 'left', 'bottom']
+                    },{
+                        name: 'Dimension',
+                        open: false,
+                        buildProps: ['width', 'height', 'max-width', 'min-height', 'margin', 'padding'],
+                    },{
+                        name: 'Typography',
+                        open: false,
+                        buildProps: ['font-family', 'font-size', 'font-weight', 'letter-spacing', 'color', 'line-height', 'text-shadow'],
+                    },{
+                        name: 'Decorations',
+                        open: false,
+                        buildProps: ['border-radius-c', 'background-color', 'border-radius', 'border', 'box-shadow', 'background'],
                     },{
                         name: 'Flex',
                         open: false,
@@ -258,18 +271,6 @@ export default {
                             ],
                         }
                         ]
-                    },{
-                        name: 'Dimension',
-                        open: false,
-                        buildProps: ['width', 'height', 'max-width', 'min-height', 'margin', 'padding'],
-                    },{
-                        name: 'Typography',
-                        open: false,
-                        buildProps: ['font-family', 'font-size', 'font-weight', 'letter-spacing', 'color', 'line-height', 'text-shadow'],
-                    },{
-                        name: 'Decorations',
-                        open: false,
-                        buildProps: ['border-radius-c', 'background-color', 'border-radius', 'border', 'box-shadow', 'background'],
                     },{
                         name: 'Extra',
                         open: false,
